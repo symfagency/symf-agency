@@ -1,0 +1,97 @@
+/*!
+ * @author Mohamed Muntasir
+ * @link https://github.com/symfagency
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth font-sans text-base selection:bg-secondary selection:text-primary;
+  }
+  body {
+    @apply min-w-[280px] overflow-x-hidden bg-primary text-secondary;
+  }
+  img,
+  svg {
+    @apply select-none;
+  }
+  a,
+  button,
+  p,
+  span,
+  li,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply [word-break:break-word];
+  }
+  button {
+    @apply cursor-pointer disabled:cursor-not-allowed;
+  }
+}
+
+.fade-enter,
+.fade-up-enter,
+.fade-down-enter {
+  opacity: 0;
+}
+.fade-up-enter {
+  position: relative;
+  bottom: -1.5rem;
+}
+.fade-down-enter {
+  position: relative;
+  top: -1rem;
+}
+.fade-enter-active,
+.fade-up-enter-active,
+.fade-down-enter-active {
+  transition: 200ms;
+  opacity: 1;
+}
+.fade-up-enter-active {
+  position: relative;
+  bottom: 0;
+}
+.fade-down-enter-active {
+  position: relative;
+  top: 0;
+}
+.fade-exit,
+.fade-up-exit,
+.fade-down-exit {
+  opacity: 1;
+}
+.fade-up-exit {
+  position: relative;
+  bottom: 0;
+}
+.fade-down-exit {
+  position: relative;
+  top: 0;
+}
+.fade-exit-active,
+.fade-exit-done,
+.fade-up-exit-active,
+.fade-up-exit-done,
+.fade-down-exit-active,
+.fade-down-exit-done {
+  transition: 200ms;
+  opacity: 0;
+}
+.fade-up-exit-active,
+.fade-up-exit-done {
+  position: relative;
+  bottom: -1.5rem;
+}
+.fade-down-exit-active,
+.fade-down-exit-done {
+  position: relative;
+  top: -1rem;
+}
