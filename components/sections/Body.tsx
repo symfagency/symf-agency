@@ -20,12 +20,13 @@ const Body = () => {
 
       firstRef.current && sr.reveal(firstRef.current, config.srConfig());
       secondRef.current && sr.reveal(secondRef.current, config.srConfig());
+      thirdRef.current && sr.reveal(thirdRef.current, config.srConfig());
       fourthRef.current && sr.reveal(fourthRef.current, config.srConfig());
     })();
   }, []);
 
   return (
-    <section className="mx-auto grid max-w-[100rem] gap-16 py-20">
+    <section className="mx-auto my-24 grid max-w-[100rem] gap-16">
       <div ref={firstRef}>
         <span className="mb-6 block text-center text-[clamp(1.875rem,5vw,2.25rem)] font-bold leading-normal md:text-left">
           What&apos;s this?
@@ -45,7 +46,7 @@ const Body = () => {
               "We prioritize long-term relationships; sincerity and truthfulness are above everything.",
             ].map((tenet) => (
               <li
-                className="grid w-fit justify-items-center gap-4 rounded border-2 border-solid border-secondary p-4 text-center"
+                className="grid w-fit justify-items-center gap-4 rounded border-2 border-solid border-secondary p-4 text-center shadow-lg"
                 key={tenet}
               >
                 <BsDropletHalf className="h-6 w-6 sm:h-8 sm:w-8" />

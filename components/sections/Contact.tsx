@@ -8,28 +8,20 @@ import { useEffect, useRef } from "react";
 import config from "../../config";
 
 const Contact = () => {
-  const paragraphRef = useRef<HTMLParagraphElement | null>(null);
-  const linkRef = useRef<HTMLAnchorElement | null>(null);
-  const stackRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const firstRef = useRef<HTMLParagraphElement | null>(null);
 
   useEffect(() => {
     (async () => {
       const sr = (await import("scrollreveal")).default();
 
-      for (const ref of [paragraphRef, linkRef])
-        ref.current && sr.reveal(ref.current, config.srConfig());
-      stackRefs.current.forEach(
-        (r, i) =>
-          r &&
-          sr.reveal(r, config.srConfig(((i + 1) * config.delays.reveal) / 2))
-      );
+      firstRef.current && sr.reveal(firstRef.current, config.srConfig());
     })();
   }, []);
 
   return (
-    <section className="py-20" id="contact">
-      <div className="mx-auto md:w-2/3">
-        <p className="mb-6 text-center text-lg md:text-xl" ref={paragraphRef}>
+    <section className="my-24" id="contact">
+      <div className="mx-auto md:w-2/3" ref={firstRef}>
+        <p className="mb-6 text-center text-lg md:text-xl">
           <span className="block font-bold">
             Ready to rewrite your revenue and capitalize on new opportunities?
           </span>
@@ -40,7 +32,6 @@ const Contact = () => {
         <a
           className="mx-auto block w-fit rounded border-2 border-solid border-secondary bg-tertiary py-1 px-2 font-bold uppercase transition hover:bg-tertiary/60 md:text-lg"
           href={`mailto:${config.email}`}
-          ref={linkRef}
         >
           i&apos;m ready
         </a>
