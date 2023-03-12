@@ -36,7 +36,7 @@ const Body = () => {
           <span className="font-bold">designing</span> and{" "}
           <span className="font-bold">supercharging</span> their funnels,
           <span className="mt-1 block">
-            We&apos;ve <span className="font-bold">four core tenets</span>:
+            We have <span className="font-bold">four core tenets</span>:
           </span>
           <ul className="mt-6 grid grid-cols-[repeat(auto-fit,_minmax(16rem,_1fr))] justify-items-center gap-4">
             {[
@@ -78,7 +78,7 @@ const Body = () => {
           </span>
 
           <span className="mb-4 block">
-            And that&apos; where we shine... we&apos;ll help you gain more
+            And that&apos;s where we shine... we&apos;ll help you gain more
             leverage, have bigger margins, achieve predictable growth, and
             increase cash flow (all without spending more on ads).
           </span>
