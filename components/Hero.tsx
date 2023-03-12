@@ -19,21 +19,20 @@ const Hero = () => {
             <div className="text-center md:text-left">
               <div className="mx-auto flex w-fit flex-grow flex-col gap-6 md:flex-1">
                 <h1 className="text text-[clamp(2.25rem,8vw,3rem)] font-bold leading-none">
-                  Turn Your Business From a Cash-Eating Monster Into a Money
-                  Printing Machine!
+                  We&apos;ll turn your info-product business into a passive
+                  income soruce with what we call: &quot;The Organic, Lucrative
+                  Info-Product Funnels System.&quot;
                 </h1>
 
                 <div>
                   <p className="md:text-xl">
-                    <span className="font-bold capitalize">what?!</span> We Help
-                    E-commerce & Info-Product Businesses Generate More Sales
-                    with Our Words So They Can Get a Brain-Shocking ROI.
                     <span className="mt-4 mb-1 block">
-                      Stop wasting interested eyeballs and subscribers,
+                      Stop leaving money on the table by wasting interested
+                      eyeballs and subscribers,
                     </span>
                     <span className="block">
                       It’s time for you to turn your organic traffic along with
-                      your list into real money you can enjoy.
+                      your email list into real money you can enjoy.
                     </span>
                   </p>
                 </div>
