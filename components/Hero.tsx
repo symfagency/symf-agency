@@ -21,7 +21,7 @@ const Hero = () => {
                 <h1 className="text text-[clamp(2.25rem,8vw,3rem)] font-bold leading-none">
                   We&apos;ll turn your info-product business into a passive
                   income source with what we call: &quot;The Organic, Lucrative
-                  Info-Product Funnels System.&quot;
+                  Info-Product System.&quot;
                 </h1>
 
                 <div>

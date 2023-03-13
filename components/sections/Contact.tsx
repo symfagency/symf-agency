@@ -23,7 +23,8 @@ const Contact = () => {
       <div className="mx-auto md:w-2/3" ref={firstRef}>
         <p className="mb-6 text-center text-lg md:text-xl">
           <span className="mb-1 block font-bold">
-            Ready to rewrite your revenue and capitalize on new opportunities?
+            Ready to turn your business into a passive income source and
+            capitalize on new opportunities?
           </span>
           Schedule a meeting with us by clicking or tapping the button below (or
           if you got here by an outreach reply to that email).
