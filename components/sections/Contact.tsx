@@ -1,4 +1,5 @@
 /*!
+nt
  * @author Mohamed Muntasir
  * @link https://github.com/symfagency
  */
@@ -26,8 +27,7 @@ const Contact = () => {
             Ready to turn your business into a passive income source and
             capitalize on new opportunities?
           </span>
-          Schedule a meeting with us by clicking or tapping the button below (or
-          if you got here by an outreach reply to that email).
+          Schedule a meeting with us by clicking or tapping the button below.
         </p>
 
         <a
