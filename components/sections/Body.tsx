@@ -34,7 +34,7 @@ const Body = () => {
           An organic marketing agency that specializes in generating more sales
           for info-product businesses by{" "}
           <span className="font-bold">designing</span> and{" "}
-          <span className="font-bold">supercharging</span> their funnels,
+          <span className="font-bold">supercharging</span> their funnels...
           <span className="mt-1 block">
             We have <span className="font-bold">four core tenets</span>:
           </span>

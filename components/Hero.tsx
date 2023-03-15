@@ -18,9 +18,9 @@ const Hero = () => {
           <CSSTransition classNames="fade-up" timeout={config.delays.header}>
             <div className="text-center md:text-left">
               <div className="mx-auto flex w-fit flex-grow flex-col gap-6 md:flex-1">
-                <h1 className="text text-[clamp(2.25rem,8vw,3rem)] font-bold leading-none">
-                  We&apos;ll turn your info-product business into a passive
-                  income source with what we call: &quot;The Organic, Lucrative
+                <h1 className="text text-[clamp(2.25rem,8vw,3rem)] font-bold leading-tight">
+                  We help info-product businesses produce brain-shocking revenue
+                  growth safely with what we call: &quot;The Organic, Lucrative
                   Info-Product System.&quot;
                 </h1>
 
