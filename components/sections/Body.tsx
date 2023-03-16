@@ -67,9 +67,9 @@ const Body = () => {
           </span>
 
           <span className="mb-4 block">
-            By using utilizing the list you already have we&apos;ll help you
-            gain more leverage, have bigger margins, achieve predictable growth,
-            and increase cash flow all without spending more on ads.
+            By utilizing the list you already have we&apos;ll help you gain more
+            leverage, have bigger margins, achieve predictable growth, and
+            increase cash flow all without spending more on ads.
           </span>
 
           <span className="block font-bold">
@@ -94,7 +94,7 @@ const Body = () => {
             We do one thing only because mastery demands focus.
           </span>
 
-          <span className="mb-4 block">
+          <span className="mb-1 block">
             If you want an agency that offers a full-service solution to
             everything then we’re not for you, that won’t move the needle
             forward.
