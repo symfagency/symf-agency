@@ -20,19 +20,18 @@ const Hero = () => {
               <div className="mx-auto flex w-fit flex-grow flex-col gap-6 md:flex-1">
                 <h1 className="text text-[clamp(2.25rem,8vw,3rem)] font-bold leading-none">
                   We help info-product businesses produce brain-shocking revenue
-                  growth safely with what we call: &quot;The Organic, Lucrative
-                  Info-Product System.&quot;
+                  growth safely with effective email marketing.
                 </h1>
 
                 <div>
                   <p className="md:text-xl">
                     <span className="mb-1 block">
-                      Stop leaving money on the table by wasting interested
-                      eyeballs and subscribers,
+                      Stop leaving money on the table by wasting subscribers,
                     </span>
+
                     <span className="block">
-                      It’s time for you to turn your organic traffic along with
-                      your email list into real money you can enjoy.
+                      It’s time for you to turn your email list into real money
+                      you can enjoy.
                     </span>
                   </p>
                 </div>

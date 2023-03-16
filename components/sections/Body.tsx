@@ -31,10 +31,9 @@ const Body = () => {
         </span>
 
         <p className="text-center md:text-left md:text-xl">
-          An organic marketing agency that specializes in generating more sales
-          for info-product businesses by{" "}
-          <span className="font-bold">designing</span> and{" "}
-          <span className="font-bold">supercharging</span> their funnels...
+          An email marketing agency that specializes in generating more sales
+          for info-product businesses by writing their emails and designing
+          their email-based funnels...
           <span className="mt-1 block">
             We have <span className="font-bold">four core tenets</span>:
           </span>
@@ -67,20 +66,10 @@ const Body = () => {
             Because <span className="font-bold">our goal is different</span>,
           </span>
 
-          <span className="mb-1 block">
-            You see, most “digital marketers” out there focus on shallow
-            metrics—likes, comments, shares, etc…
-          </span>
-
-          <span className="mb-1 block">
-            While these might be good metrics to have on the side, they’re not
-            necessary at all when it comes to conversions and sales.
-          </span>
-
           <span className="mb-4 block">
-            And that&apos;s where we shine... we&apos;ll help you gain more
-            leverage, have bigger margins, achieve predictable growth, and
-            increase cash flow (all without spending more on ads).
+            By using utilizing the list you already have we&apos;ll help you
+            gain more leverage, have bigger margins, achieve predictable growth,
+            and increase cash flow all without spending more on ads.
           </span>
 
           <span className="block font-bold">
@@ -97,8 +86,8 @@ const Body = () => {
 
         <p className="text-center md:text-left md:text-xl">
           <span className="mb-4 block font-bold">
-            Extremely effective non-paid advertising that leverages your social
-            media presence, landing pages, and email list.
+            Extremely effective non-paid advertising that leverages your email
+            list.
           </span>
 
           <span className="mb-1 block">
@@ -113,8 +102,8 @@ const Body = () => {
 
           <span className="block">
             But if you want an agency where with a couple of clicks or taps you
-            can design and supercharge your funnels so you can get much more out
-            of them leveraging proven strategies, then we&apos;re for you.
+            can turn your email list into highly engaged buying customers then
+            we&apos;re for you.
           </span>
         </p>
       </div>
