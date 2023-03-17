@@ -40,7 +40,7 @@ const Body = () => {
           <ul className="mt-6 grid grid-cols-[repeat(auto-fit,_minmax(16rem,_1fr))] justify-items-center gap-4">
             {[
               "We have one definitive goal: make you boatloads of money by increasing your sales with our strategies.",
-              "We don’t advertise the way you want us to or the way we want to; we advertise the way your prospects want to be advertised to.",
+              "We don’t advertise the way you want us to or the way we want to; we advertise the way your audience wants to be advertised to.",
               "We only work with serious clients aiming to do whatever it takes to prosper.",
               "We prioritize long-term relationships; sincerity and truthfulness are above everything.",
             ].map((tenet) => (
@@ -102,7 +102,7 @@ const Body = () => {
 
           <span className="block">
             But if you want an agency where with a couple of clicks or taps you
-            can turn your email list into highly engaged buying customers then
+            can turn your email list into highly engaged, buying customers then
             we&apos;re for you.
           </span>
         </p>
