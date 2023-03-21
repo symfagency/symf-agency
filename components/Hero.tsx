@@ -19,14 +19,16 @@ const Hero = () => {
             <div className="text-center md:text-left">
               <div className="mx-auto flex w-fit flex-grow flex-col gap-6 md:flex-1">
                 <h1 className="text text-[clamp(2.25rem,8vw,3rem)] font-bold leading-none">
-                  We help info-product businesses produce brain-shocking revenue
-                  growth safely with effective email marketing.
+                  We help service and information based businesses produce
+                  brain-shocking revenue growth safely with effective email
+                  marketing.
                 </h1>
 
                 <div>
                   <p className="md:text-xl">
                     <span className="mb-1 block">
-                      Stop leaving money on the table by wasting subscribers,
+                      Stop leaving money on the table by wasting interested
+                      subscribers,
                     </span>
 
                     <span className="block">

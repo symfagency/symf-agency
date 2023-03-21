@@ -31,15 +31,19 @@ const Body = () => {
         </span>
 
         <p className="text-center md:text-left md:text-xl">
-          An email marketing agency that specializes in generating more sales
-          for info-product businesses by writing their emails and designing
-          their email-based funnels...
+          An{" "}
+          <span className="font-bold">
+            email marketing agency that specializes in generating more bookings
+            and sales
+          </span>{" "}
+          for service and information based businesses by writing and automating
+          their emails and designing their email-based funnels...
           <span className="mt-1 block">
             We have <span className="font-bold">four core tenets</span>:
           </span>
           <ul className="mt-6 grid grid-cols-[repeat(auto-fit,_minmax(16rem,_1fr))] justify-items-center gap-4">
             {[
-              "We have one definitive goal: make you boatloads of money by increasing your sales with our strategies.",
+              "We have one definitive goal: make you boatloads of money by increasing your bookings and sales with our strategies.",
               "We don’t advertise the way you want us to or the way we want to; we advertise the way your audience wants to be advertised to.",
               "We only work with serious clients aiming to do whatever it takes to prosper.",
               "We prioritize long-term relationships; sincerity and truthfulness are above everything.",
@@ -73,7 +77,7 @@ const Body = () => {
           </span>
 
           <span className="block font-bold">
-            The best part? If you don’t increase your revenue, we don’t get
+            The best part? If your revenue doesn&apos;t increase, we don’t get
             paid, as we work on a pay on results basis!
           </span>
         </p>
@@ -85,12 +89,12 @@ const Body = () => {
         </span>
 
         <p className="text-center md:text-left md:text-xl">
-          <span className="mb-4 block font-bold">
+          <span className="mb-1 block font-bold">
             Extremely effective non-paid advertising that leverages your email
             list.
           </span>
 
-          <span className="mb-1 block">
+          <span className="mb-4 block">
             We do one thing only because mastery demands focus.
           </span>
 
