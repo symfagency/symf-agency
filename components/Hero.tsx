@@ -20,8 +20,7 @@ const Hero = () => {
               <div className="mx-auto flex w-fit flex-grow flex-col gap-6 md:flex-1">
                 <h1 className="text text-[clamp(2.25rem,8vw,3rem)] font-bold leading-none">
                   We help service and information based businesses produce
-                  brain-shocking revenue growth safely with effective email
-                  marketing.
+                  brain-shocking revenue growth with effective email marketing.
                 </h1>
 
                 <div>
